@@ -1,0 +1,14 @@
+[project]
+name = "vyroniq"
+version = "0.1.0"
+description = "VYRONIQ brings comprehensive visibility and evaluation to autonomous AI agents. It continuously monitors agent behavior, evaluates goal alignment, analyzes decision-making, detects behavioral deviations, and provides actionable insights into agent execution, helping ensure agents operate as intended."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.14.5",
+    "elasticsearch>=9.5.1",
+    "fastapi[standard]>=0.162.2",
+    "ollama>=0.6.3",
+    "pydantic-settings>=2.0.0",
+    "python-dotenv>=1.2.4",
+]
